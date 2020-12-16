@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?yzydwy');
+  src:  url('../fonts/icomoon.eot?yzydwy#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?yzydwy') format('truetype'),
+    url('../fonts/icomoon.woff?yzydwy') format('woff'),
+    url('../fonts/icomoon.svg?yzydwy#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e9ed";
+  color: #1877f2;
+}
+.icon-gmail:before {
+  content: "\e9ee";
+  color: #d14836;
+}
+.icon-gmail2:before {
+  content: "\e9ee";
+  color: rgb(70, 69, 69);
+}
+.icon-instagram:before {
+  content: "\e9f0";
+  color: #e4405f;
+}
+.icon-linkedin:before {
+  content: "\e901";
+  color: #0077b5;
+}
+.icon-messenger:before {
+  content: "\e9f1";
+  color: #00b2ff;
+}
+.icon-twitter:before {
+  content: "\e9f2";
+  color: #1da1f2;
+}
+.icon-whatsapp:before {
+  content: "\e9f3";
+  color: #25d366;
+}
+.icon-home:before {
+  content: "\e900";
+}
+.icon-price-tags:before {
+  content: "\e936";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+
+.icon-phone2:before {
+  content: "\e942";
+    color: rgb(2, 134, 13);
+
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-map:before {
+  content: "\e94b";
+}
+.icon-map2:before {
+  content: "\e94c";
+}
+.icon-calendar:before {
+  content: "\e953";
+}
+.icon-user-tie:before {
+  content: "\e976";
+}
+.icon-airplane:before {
+  content: "\e9af";
+}
+.icon-man:before {
+  content: "\e9dc";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp2:before {
+  content: "\ea93";
+  color: rgb(88, 88, 88);
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-messenger2:before {
+  content: "\e9f1";
+  color: rgb(88, 88, 88);
+}

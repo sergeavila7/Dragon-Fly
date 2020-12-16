@@ -1,0 +1,349 @@
+
+@font-face{
+font-family: 'dancing';
+src: url(fonts/DancingScript-Regular.otf);
+
+
+
+}
+
+@font-face{
+    font-family: 'raleway';
+    src: url(fonts/Raleway-Light.ttf);
+    }
+
+    
+    .navbar-brand img{
+        width:60px; height:60px;
+      }
+
+nav.navbar {
+    
+    width: 100%;
+    height: 100%;
+    background-color: hsl(56, 100%, 50%);
+}
+
+
+.header-nav header nav h4{
+    display: inline-flex;
+    margin-left: 4px;
+    font-family: 'dancing';
+    color: black !important;
+font-weight: bold;
+letter-spacing: 2px;
+
+}
+.header-nav header nav h5{
+    display: inline-flex;
+    margin-left: 4px;
+    font-family: 'dancing';
+    color: #e7bf0e !important;
+font-weight: bold;
+letter-spacing: 2px;
+
+}
+
+.header-nav header nav ul li a{
+    color: black !important;
+    font-family: 'raleway';
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+
+}
+.header-nav header nav ul li a:hover{
+    color: black !important;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.navbar-nav > li{
+    padding-left:8px;
+    padding-right:8px;
+  }
+ 
+  body {
+      width: auto;
+      height: auto;
+      overflow-x: hidden ;
+    }
+    .space{
+        width: 100%;
+        height: 80px;
+        
+    background: black;
+  
+    }
+ 
+    .video{
+        background: black;
+    }
+    .video-item{
+        margin: auto;
+        height: 500px;
+        width: 100%;
+        overflow: hidden;
+        background: black;
+    
+    }
+
+    .video-item video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    }
+    
+    .video .text h3{
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-size: 40px;
+    }
+
+    .video .text h5{
+        text-align: center;
+        text-transform: uppercase;
+        color: hsl(51, 100%, 50%);
+        font-size: 50px;
+    }
+    
+    #slider{
+        margin: auto;
+        height: 400px;
+        width: 100%;
+        overflow: hidden;
+        background: black;
+    
+    }
+
+    
+    #slider img{
+        width: 800px;
+        height: 400px;
+    }
+
+    .presentation{
+        margin: 20px;
+    }
+
+    .presentation h2{
+        text-align: center;
+    }
+
+    .cards{
+        width: 100%;
+        margin:auto;
+        
+    }
+    .card{
+        display: inline-block;
+        border: 0px;
+        width: 85%;
+        height: 85%;
+    }
+    
+    .card img {
+    margin-left: 40px;
+    width: 75%;
+    height: 75%;
+    }
+    
+    
+.service h2{
+color: #FDF205;    
+}
+
+.form-booking form{
+    display: flex;
+}
+
+    #layout{
+display: flex;
+
+}
+
+.container .serviceh2{
+    font-size: 80px;
+     }
+    
+     .container .service p{
+    font-size: 20px;
+    }
+
+.containerColective{
+    background: #FDF205;
+    margin-top: 30px;
+    margin-bottom: 120px;
+
+}
+.containerColective  .colective-img{
+    width: 30%;
+    margin-right: 60px;
+}
+.containerColective  .description{
+    color: black;
+    font-size: 22px;
+    }
+
+    .containerPrivate{
+        background: #FDF205;
+        margin-bottom: 100px;
+
+    }
+
+.containerPrivate  .private-img{
+    width: 30%;
+    margin-right: 60px;
+
+}
+.containerPrivate  .description{
+    color: black;
+    font-size: 22px;
+    }
+
+    #location{
+        
+        margin-left: 50px;
+    }
+    #social h3{
+        display: block;
+        text-align: center;
+        width:  auto;
+        height: 45px;
+        line-height: 45px;
+        background: black;
+        color: white;
+        box-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+        font-size: 30px;
+        font-family: "BebasNeue";
+        font-weight: normal;
+        letter-spacing: 5px;
+        padding-left: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 60px;
+    }
+    
+   
+
+#social .icon-contact{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+
+#social .icon-contact .icon{
+    border-radius:50px;
+    box-shadow: 2px 2px 3px #999;
+
+}
+
+#social p{
+font-size: 20px;
+}
+
+    #social .overlay{
+        display: block;
+        height: 20px;
+        font-weight: bold;
+        letter-spacing: 4px;
+        position: absolute;
+        padding: 5px;
+        margin-left: 50px;
+        margin-top: -52px;
+        transform: translateX(-80%);
+        opacity: 0;
+        transition: all 400ms;
+    }
+    
+    #social div:hover .overlay{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    
+
+.contact{
+    width: 100%;
+    height: 300px;
+    color: #e4ce07;
+    text-align: center;
+    margin: auto;
+    
+margin-bottom: 30px;
+background: black;
+box-shadow: 2px 2px 2px 2px  #7d7d7d, 4px 4px 4px 4px #a7a7a7;
+}
+
+.reservation{
+    width: 100%;
+    height: 300px;
+    color: #e4ce07;
+    text-align: center;
+    margin: auto;
+    
+margin-bottom: 30px;
+background: black;
+box-shadow: 2px 2px 2px 2px  #7d7d7d, 4px 4px 4px 4px #a7a7a7;
+}
+
+
+
+    .footer-content {
+        text-align: center;
+        background: black;
+    } 
+
+    .footer-content img{
+        width: 400px;
+    }
+
+.footer-content .icon{
+    font-size: 25px;
+    padding: 5px;
+
+}
+
+.footer-content .icon:hover{
+    filter: opacity(50%);
+}
+    .footer-content ul > li{
+    display: inline-block;
+
+    }
+
+    .footer-content ul li a{
+color: white;
+    }
+
+    #footer{
+        background: #464646;
+        color:#ccc;
+        text-align: center;
+    }
+
+
+    .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+      font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+      z-index:100;
+    }
+    .float:hover {
+        text-decoration: none;
+        color: #25d366;
+      background-color:#fff;
+    }
+    
+    .my-float{
+        margin-top:16px;
+    }

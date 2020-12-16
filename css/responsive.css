@@ -1,0 +1,239 @@
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) { 
+  
+    
+    }
+    
+    
+    @media (max-width: 1140px) { 
+        .navbar-nav > li{
+            padding-left:4px;
+            padding-right:4px;
+          }
+          .footer-content img{
+            width: 50%;
+        }
+     
+     }
+     @media (max-width: 1100px) { 
+        .navbar-nav > li{
+            padding-left:2px;
+            padding-right:2px;
+          }
+          .header-nav header nav ul li a{
+           
+            font-size: 18px;
+     }
+     .footer-content img{
+      width: 40%;
+  }
+     }
+  
+    
+    
+     /* Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+  .containerColective  .description h2{
+    color: black;
+    font-size: 24px;
+    }
+  .containerPrivate  .description h2{
+    color: black;
+    font-size: 24px;
+    }
+  
+    .containerColective  .colective-img{
+      width: 30%;
+      margin-right: 40px;
+    }
+   
+    .containerPrivate  .private-img{
+      width: 30%;
+      margin-right: 40px;
+    
+    }
+    .footer-content img{
+      width: 50%;
+  }
+  }
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+  .presentation h2{
+    font-size: 30px;
+      }
+      .presentation p{
+        font-size: 18px;
+          }
+ 
+
+ .container .service h2{
+  font-size: 24px;
+   }
+  
+   .container .service p{
+  font-size: 16px;
+  }
+  
+.containerColective  .colective-img{
+  width: 30%;
+  margin-right: 30px;
+}
+.containerColective  .description{
+  color: black;
+  font-size: 15px;
+  }
+
+  .containerColective  .description h2{
+    color: black;
+    font-size: 20px;
+    }
+.containerPrivate  .private-img{
+  width: 30%;
+  margin-right: 30px;
+
+}
+.containerPrivate  .description{
+  color: black;
+  font-size: 15px;
+  }
+  .containerPrivate  .description h2{
+    color: black;
+    font-size: 20px;
+    }
+
+    .footer-content img{
+      width: 40%;
+  }
+}
+ /* Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+  .navbar-brand img{
+    width:54px; height:54px;
+  }
+
+.header-nav header nav h4{
+   font-size: 22px;
+
+}
+.header-nav header nav h5{
+font-size: 18px;
+
+}
+
+.header-nav header nav ul li a{
+    font-size: 15px;
+   
+
+}
+  .presentation h2{
+font-size: 25px;
+  }
+  .presentation p{
+    font-size: 14px;
+      }
+     
+     .container .service h2{
+      font-size: 22px;
+       }
+      
+       .container .service p{
+      font-size: 14px;
+      }
+
+        
+.containerColective  .colective-img{
+  width: 30%;
+  margin-right: 20px;
+}
+.containerPrivate  .private-img{
+  width: 30%;
+  margin-right: 20px;
+
+}
+  .footer-content .icon{
+    font-size: 20px;
+    padding: 2px;
+
+}
+
+
+    .footer-content ul li a{
+      font-size: 12px;
+      
+    }
+
+    #footer{
+     
+      font-size: 10px;
+  }
+  .footer-content img{
+    width: 40%;
+}
+}
+@media (max-width: 470px) { 
+  .navbar-brand img{
+    width:52px; height:52px;
+  }
+
+.header-nav header nav h4{
+   font-size: 18px;
+
+}
+.header-nav header nav h5{
+font-size: 16px;
+
+}
+
+.header-nav header nav ul li a{
+    font-size: 12px;
+   
+
+}
+  .presentation h2{
+font-size: 23px;
+  }
+  .presentation p{
+    font-size: 12px;
+      }
+     
+     .container .service h2{
+      font-size: 20px;
+       }
+      
+       .container .service p{
+      font-size: 14px;
+      }
+
+        
+.containerColective  .colective-img{
+  width: 30%;
+  margin-right: 15px;
+}
+.containerPrivate  .private-img{
+  width: 30%;
+  margin-right: 15px;
+
+}
+  .footer-content .icon{
+    font-size: 15px;
+    padding: 2px;
+
+}
+
+
+    .footer-content ul li a{
+      font-size: 10px;
+      
+    }
+
+    #footer{
+     
+      font-size: 10px;
+  }
+  .footer-content img{
+    width: 40%;
+}
+}
