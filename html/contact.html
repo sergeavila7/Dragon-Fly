@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width, initial-scale=0.86, maxium-scale=3.0, minium-scale=0.86"/>
+    <meta name="viewport" content="width-device-width, initial-scale=0.86, maxium-scale=3.0, minium-scale=0.86" />
     <title>Dragon-Fly</title>
 
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
@@ -17,8 +17,9 @@
 
 <body>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://api.whatsapp.com/send?phone=+525539999832&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Dragon-Fly%02." class="float" target="_blank">
-    <i class="fa fa-whatsapp my-float"></i>
+    <a href="https://api.whatsapp.com/send?phone=+525539999832&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Dragon-Fly%02."
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
     </a>
     <!--Inicio de cabecera-->
     <div class="header-nav fixed-top">
@@ -79,57 +80,67 @@
             <div class="row">
                 <div class="col-lg-6">
 
-                    <form method="post" id="sheetdb-form"
-                    action="https://sheetdb.io/api/v1/fhq4ee59uuej2">
+                    <form method="post" id="sheetdb-form" action="https://sheetdb.io/api/v1/fhq4ee59uuej2">
                         <div class="form-group">
                             <label>Nombre(s):</label>
-                            <input name="data[namec]" type="text" class="form-control" placeholder="Introduce tu nombre(s)" required>
+                            <input name="data[namec]" type="text" class="form-control"
+                                placeholder="Introduce tu nombre(s)" required>
                         </div>
 
                         <div class="form-group">
                             <label>Apellidos:</label>
-                            <input name="data[lastnamec]" type="text" class="form-control" placeholder="Introduce tus apellidos" required>
+                            <input name="data[lastnamec]" type="text" class="form-control"
+                                placeholder="Introduce tus apellidos" required>
                         </div>
                         <div class="form-group">
                             <label>Correo:</label>
-                            <input name="data[emailc]" type="email" class="form-control" placeholder="Introduce tu correo" required>
+                            <input name="data[emailc]" type="email" class="form-control"
+                                placeholder="Introduce tu correo" required>
 
                             <div class="form-group">
                                 <label>Mensaje:</label>
                                 <textarea name="data[messagec]" class="form-control" required></textarea>
                             </div>
 
-                            <button type="submit"  id="btn" class="btn btn-warning mb-3 mr-3" style="box-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
-                            " ><strong>Enviar</strong></button>
-                                <input type="button" onclick="resetform()" value="Limpiar"class="btn btn-danger mb-3" style="box-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
-                                " >
-
-                            
+                            <button type="submit" id="btn" class="btn btn-warning mb-3 mr-3" style="box-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+                            "><strong>Enviar</strong></button>
+                            <input type="button" onclick="resetform()" value="Limpiar" class="btn btn-danger mb-3"
+                                style="box-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+                                ">
                     </form>
+
+                    <!-- CODIGO METODO PARA ENVIAR DATOS DEL FORMULARIO A SHEETDB-FORM-->
                     <script>
                         var form = document.getElementById('sheetdb-form');
                         form.addEventListener("submit", e => {
-                          e.preventDefault();
-                          fetch(form.action, {
-                              method : "POST",
-                              body: new FormData(document.getElementById("sheetdb-form")),
-                          }).then(
-                              response => response.json()
-                          ).then((html) => {
-                            // you can put any JS code here
-                            alert('Mensaje enviado!!!')
-                          });
+                            e.preventDefault();
+                            fetch(form.action, {
+                                method: "POST",
+                                body: new FormData(document.getElementById("sheetdb-form")),
+                            }).then(
+                                response => response.json()
+                            ).then((html) => {
+                                // you can put any JS code here
+                                alert('Mensaje enviado!!!')
+                            });
                         });
-                      </script>
+                    </script>
+                    <!-- FIN DEL CODIGO-->
+
+                    <!-- LIMPIAR FORMULARIO-->
                     <script>
                         function resetform() {
-                         $("form select").each(function() { this.selectedIndex = 0 });
-                         $("form input[type=text] , form textarea").each(function() { this.value = '' });
-                    }
+                            $("form select").each(function () { this.selectedIndex = 0 });
+                            $("form input[type=text] , form textarea").each(function () { this.value = '' });
+                        }
                     </script>
                 </div>
 
             </div>
+            <!--Fin Formulario-->
+
+
+            <!-- GOOGLE MAPS-->
             <div class="row">
                 <div class="col-lg-12">
                     <div id="location">
@@ -150,7 +161,9 @@
                             </p>
                         </div>
                         <div class="icon-contact">
-                            <a style="text-decoration:none" href="https://api.whatsapp.com/send?phone=5561343929&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="icon icon-whatsapp"></a>
+                            <a style="text-decoration:none"
+                                href="https://api.whatsapp.com/send?phone=5561343929&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
+                                class="icon icon-whatsapp"></a>
                             <p class="overlay">
                                 5539999832
                             </p>
@@ -163,12 +176,11 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
 
     </div>
-    <!--Fin Formulario-->
 
 
     <!--Footer-->
