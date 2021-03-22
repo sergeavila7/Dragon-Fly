@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width, initial-scale=0.86, maxium-scale=3.0, minium-scale=0.86" />
+  <title>Dragon-Fly</title>
+
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/fonts/style.css" />
+  <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="../css/responsive.css" />
+  <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css"
+    rel="stylesheet">
+
+  <link rel="icon" type="image/jpeg" href="../css/images/logodp.png" />
+
+</head>
+
+<body>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://api.whatsapp.com/send?phone=+525539999832&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Dragon-Fly%20."
+    class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
+  <!--Inicio de cabecera-->
+  <div class="header-nav fixed-top">
+    <div class="row">
+      <header id="header" class="col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-light background-light">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+          </button>
+          <a class="navbar-brand" href="../index.html">
+            <img src="../css/images/logodp.png" width="60" height="60" loading="lazy">
+            <h4>Dragon-Fly</h4>
+            <h5>A donde quieras </h5>
+
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active ">
+                <a class="nav-link" href="../index.html"><span class="icon icon-home"></span>Inicio
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../html/about.html"><span class="icon icon-user-tie"></span>Nosotros</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../html/services.html"><span
+                    class="icon icon-calendar"></span>Reservaciones</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../html/contact.html" title="Contact"><span
+                    class="icon icon-phone"></span>Contacto</a>
+              </li>
+
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+    </div>
+  </div>
+  <!--Fin de cabecera-->
+  <div class="space"> </div>
+
+
+
+  <div class="form col-mx-auto">
+    <div class="reservation">
+      <h2>Reserva tu servicio en línea</h2>
+      <img src="../css/images/reserva.jpeg" width="100%" height="260">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <form method="post" id="sheetdb-form" action="https://sheetdb.io/api/v1/mi421zef3zzig">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Nombre(s)/Apellidos</span>
+              </div>
+              <input type="text" aria-label="First name" class="form-control" name="data[name]" required>
+              <input type="text" aria-label="Last name" class="form-control" name="data[lastname]" required>
+            </div>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default"><span
+                    class="icon icon-gmail2"></span></span>
+              </div>
+              <input type="email" class="form-control" name="data[email]" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" required>
+            </div>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default"><span
+                    class="icon icon-phone"></span></span>
+              </div>
+              <input type="number" class="form-control" name="data[phone]" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" required>
+            </div>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default"><span class="icon icon-calendar"></span>
+                </span>
+              </div>
+              <input type="date" class="form-control" name="data[date]" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" required>
+            </div>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default"><span
+                    class="icon icon-location"></span></span>
+              </div>
+              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect"></label>
+              <select name="data[location1]" class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
+                <option selected>Escoge un opcion...</option>
+                <option value="Aeropuerto Cancun">Aeropuerto Cancun</option>
+
+
+              </select>
+            </div>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default"><span
+                    class="icon icon-location2"></span></span>
+              </div>
+              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect"></label>
+              <select name="data[location2]" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>Escoge un opcion...</option>
+                <option value="Holbox">Holbox</option>
+                <option value="Playa del carmen">Playa del carmen</option>
+                <option value="Centro de cancun">Centro de cancun</option>
+
+
+              </select>
+            </div>
+
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default"><span class="icon icon-man"></span></span>
+              </div>
+              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect"></label>
+              <select name="data[person]" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>Escoge un opcion...</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+
+              </select>
+            </div>
+            <div class="col-md-12">
+
+              <div class="input-group mb-3">
+                <span class="input-group-text  mt-2" id="inputGroup-sizing-default">
+                  Precio por persona viaje SENCILLO $3,000</span>
+                <span class="input-group-text mt-2" id="inputGroup-sizing-default">
+                  Precio por persona viaje REDONDO $5,500</span>
+              </div>
+            </div>
+
+            <div class="custom-control custom-switch">
+              <input name="data[toggle]" type="checkbox" data-toggle="toggle" data-onstyle="warning"
+                data-offstyle="info" data-on="Redondo" data-off="Sencillo">
+
+              <script>
+                $(function () {
+                  $('#toggle').bootstrapToggle({
+                    on: 'Redondo',
+                    off: 'Sencillo'
+                  });
+                })
+              </script>
+            </div>
+
+
+
+
+            <button type="submit" id="btn" class="btn btn-warning mb-3 mt-3 mr-3" style="box-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+            "><strong>Reservar</strong></button>
+
+            <input type="button" onclick="resetform()" value="Limpiar" class="btn btn-danger mb-3 mt-3" style="box-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+            ">
+          </form>
+
+          <script>
+            var form = document.getElementById('sheetdb-form');
+            form.addEventListener("submit", e => {
+              e.preventDefault();
+              fetch(form.action, {
+                method: "POST",
+                body: new FormData(document.getElementById("sheetdb-form")),
+              }).then(
+                response => response.json()
+              ).then((html) => {
+                // you can put any JS code here
+                alert('Reservacion exitosa!!!')
+              });
+            });
+          </script>
+          <script>
+            function resetform() {
+              $("form select").each(function () { this.selectedIndex = 0 });
+              $("form input[type=text] , form textarea").each(function () { this.value = '' });
+            }
+          </script>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!--Footer-->
+  <div class="footer-content">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="logo-footer">
+          <img src="../css/images/logofo.jpeg" width="25%" height="25%" class="d-inline-block align-top" alt=""
+            loading="lazy">
+
+          <ul>
+            <li> <a class="nav-link"
+                href="https://www.facebook.com/Dragon-Fly-115000577001965/?hc_ref=ARTfwFMXhpNq1auxwPy8yWcoLPfjob1z8piZBVbUOb3DUGpMlFDV_Tdm_0rOZf6H-PE&ref=nf_target&__tn__=kC-R"
+                target="_blank"><span class="icon icon-facebook"></span>Facebook</a> </li>
+            <li><a class="nav-link" href="https://www.instagram.com/draxgon.fly/?hl=es-la" target="_blank"><span
+                  class="icon icon-instagram"></span>Instagram</a></li>
+            <li><a class="nav-link" href=""><span class="icon icon-twitter"></span>Twitter</a></li>
+            <li><a class="nav-link" href="https://www.linkedin.com/in/dragon-fly-659b161b6" target="_blank"><span
+                  class="icon icon-linkedin"></span>Linkedin</a></li>
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer id="footer">
+    <p>&copy;Desarrollador SJAV 2020 | Todos los derechos reservados</p>
+  </footer>
+  <!--Fin Footer-->
+
+  <script type="text/javascript" src="../jquery/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+</body>
+
+
+
+</html>
